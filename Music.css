@@ -1,0 +1,230 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(rgb(100, 0, 0), black);
+    color: white;
+    max-width: 100%;
+    margin: 0% auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 7px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+a:hover, a:active{
+    color: darkgrey;
+}
+a:last-child{
+    border-right: none;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    padding: 20px
+}
+header{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.spotify{
+    border: 2px solid grey;
+    background: grey;
+    padding: 5px;
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+}
+.section_1{
+    background: rgb(0, 130, 130);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 5px;
+}
+.section_2{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.blockquote{
+    background-color: rgba(145, 0, 0, 0.5);
+    padding:1em;
+}
+.section_3{
+    background: rgb(0, 130, 130);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.border{
+    border: 5px dashed rgb(100, 0, 0);
+    padding: 10px;
+}
+.section_4{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.image_1{
+    width: 300px;
+    padding: 20px;
+    padding-left: 200px;
+}
+.section_5{
+    background: rgb(0, 130, 130);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.section_6{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.video1{
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.video2{
+    width: 500px;
+    padding-top: 10px;
+}
+.video3{
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+}
+.h4{
+    font-size: 50px;
+    font-family: garamond;
+}
+.image_2{
+    width: 250px;
+    padding-left: 200px;
+}
+.span{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgba(145, 0, 0, 0.5);
+    padding: 10px;
+    margin: 20px auto;
+    width: 85%;
+    text-align: center;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.list li{
+    padding: 5px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 20px;
+}
+.footer nav{
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.footernav li{
+    padding: 10px;
+}
+.footnav li{
+    padding: 10px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.audio{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 200px;
+    gap: 75px;
+}
+.section_7{
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background: rgb(0, 130, 130);
+}
+.h4{
+    font-size: 50px;
+    font-family: garamond;
+    padding-right: 40px;
+}
+@media screen and (min-width: 920px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 20px;
+    }
+    .audio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 200px;
+        gap: 75px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .section_1{
+        background: rgb(0, 130, 130);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        gap: 5px;
+        max-width: 100%;
+    }
+    .section_2{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 20px;
+    }
+    .section_3{
+        background: rgb(0, 130, 130);
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 20px;
+    }
+    .section_4{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 20px;
+    }
+    .section_5{
+        background: rgb(0, 130, 130);
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 20px;
+    }
+    .section_6{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 20px;
+    }
+    .audio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 400px;
+        gap: 75px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        font-size: 20px;
+    }
+}
